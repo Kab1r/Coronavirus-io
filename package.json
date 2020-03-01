@@ -1,0 +1,23 @@
+{
+  "name": "coronavirus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --output-path ./public",
+    "start": "webpack-dev-server --content-base ./public --output-path ./public --hot"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "convert-csv-to-json": "0.0.15",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "text-encoding": "^0.7.0"
+  }
+}
