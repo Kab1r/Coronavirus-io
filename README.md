@@ -1,21 +1,27 @@
-# Deck.gl + Google Maps
 
-Build amazing data visualizations with Deck.gl and Google Maps JS. 
+## Inspiration
 
-📼 Watch the [Deck.gl Google Maps Lesson](https://fireship.io/lessons/deckgl-google-maps-tutorial)
+The Coronavirus is an urgent health crisis plaguing the world today. The Virus Tracker created by the ©Abstract Connoisseurs 2020 was engineered to graphically represent its global spread.
 
-☠️ Explore the live [Gun Violence Demo](https://us-gun-violence.web.app/)
+## What it does
 
-## Run it
+Our website informs about prevention methods and the latest news. The virus visualization map plots markers on an interactive Google Map.
 
-Update the Google Maps API key in the `index.html` file. 
+## How we built it
 
-```
-git clone <this-repo> 
+We used NodeJS, Webpack and the Google Maps API through Google Cloud Console to deploy a static web app to firebase.
 
-npm install
-npm start
-```
+## Challenges we ran into
+
+- Slow Internet
+- Convoluted documentation
+- Parsing live data
+
+## What's next for Coronavirus-io
+
+- Heatmap representation
+- Demographic information
+- Spread of virus (AI simulation)
+- UI options
 
 
-Data contains over 140,000 U.S. gun-related incidents from 2013-2018 from http://www.gunviolencearchive.org/
